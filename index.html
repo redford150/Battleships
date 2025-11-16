@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Battleships — Sink 'em</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <main>
+    <h1>BATTLESHIPS   -   FIGHT!!!</h1>
+    <p class="subtitle">Find the hidden ship in 5 turns! (no, you aint gettin anymore, yes i know you havea highly unlikely chance to click it, your problem not mine)</p>
+
+    <div id="status">
+      <div id="turn">Turn: <span id="turn-number">1</span>/5</div>
+      <div id="message">Click a tile to guess the ship's position.</div>
+    </div>
+
+    <div id="board" class="board"></div>
+
+    <div class="controls">
+      <button id="reset">Reset Game</button>
+    </div>
+
+    <footer>
+      <small>Replication of the terminal Battleships game (5x5, 5 turns).</small>
+    </footer>
+  </main>
+
+  <script src="static/script.js"></script>
+</body>
+</html>
